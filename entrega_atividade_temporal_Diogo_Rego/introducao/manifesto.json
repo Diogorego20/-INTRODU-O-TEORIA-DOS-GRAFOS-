@@ -1,0 +1,21 @@
+{
+  "autor": "Diogo da Silva Rego",
+  "matricula": "20240045381",
+  "atividade": "Introdução à Teoria dos Grafos — Grafos temporais e centralidades",
+  "professora": "Ana Flávia",
+  "notebook": "analise_temporal_terremotos_got_colab.ipynb",
+  "introducao_github": "introducao/README.md",
+  "dados_entrada": [
+    "got-s1-edges.csv",
+    "got-s2-edges.csv",
+    "got-s3-edges.csv",
+    "got-s4-edges.csv",
+    "got-s5-edges.csv",
+    "got-s6-edges.csv",
+    "got-s7-edges.csv",
+    "got-s8-edges.csv",
+    "terremotos.csv",
+    "terremotos_original.ipynb"
+  ],
+  "resultados_raiz": "resultados/resumo_analise_temporal.json"
+}
