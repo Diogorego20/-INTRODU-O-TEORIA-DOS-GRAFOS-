@@ -1,0 +1,113 @@
+{
+  "byte_identical": true,
+  "dataframe_identical": true,
+  "primary": {
+    "arquivo": "got-s2-edges.csv",
+    "sha256": "a640e3e521ba431a2d3d3a9e0f39513c369165dbc248a2851f8c7cb98753301c",
+    "bytes": 9708,
+    "delimitador": ",",
+    "encoding_tentado": "utf-8-sig",
+    "linhas": 486,
+    "colunas": [
+      "Source",
+      "Target",
+      "Weight",
+      "Season"
+    ],
+    "nulos_por_coluna": {
+      "Source": 0,
+      "Target": 0,
+      "Weight": 0,
+      "Season": 0
+    },
+    "linhas_duplicadas_brutas": 0,
+    "amostra_5_linhas": [
+      {
+        "Source": "CERSEI",
+        "Target": "TYRION",
+        "Weight": "177",
+        "Season": "2"
+      },
+      {
+        "Source": "DAENERYS",
+        "Target": "JORAH",
+        "Weight": "119",
+        "Season": "2"
+      },
+      {
+        "Source": "ARYA",
+        "Target": "JAQEN",
+        "Weight": "113",
+        "Season": "2"
+      },
+      {
+        "Source": "DAVOS",
+        "Target": "STANNIS",
+        "Weight": "111",
+        "Season": "2"
+      },
+      {
+        "Source": "JON",
+        "Target": "YGRITTE",
+        "Weight": "110",
+        "Season": "2"
+      }
+    ]
+  },
+  "duplicate": {
+    "arquivo": "got-s2-edges(1).csv",
+    "sha256": "a640e3e521ba431a2d3d3a9e0f39513c369165dbc248a2851f8c7cb98753301c",
+    "bytes": 9708,
+    "delimitador": ",",
+    "encoding_tentado": "utf-8-sig",
+    "linhas": 486,
+    "colunas": [
+      "Source",
+      "Target",
+      "Weight",
+      "Season"
+    ],
+    "nulos_por_coluna": {
+      "Source": 0,
+      "Target": 0,
+      "Weight": 0,
+      "Season": 0
+    },
+    "linhas_duplicadas_brutas": 0,
+    "amostra_5_linhas": [
+      {
+        "Source": "CERSEI",
+        "Target": "TYRION",
+        "Weight": "177",
+        "Season": "2"
+      },
+      {
+        "Source": "DAENERYS",
+        "Target": "JORAH",
+        "Weight": "119",
+        "Season": "2"
+      },
+      {
+        "Source": "ARYA",
+        "Target": "JAQEN",
+        "Weight": "113",
+        "Season": "2"
+      },
+      {
+        "Source": "DAVOS",
+        "Target": "STANNIS",
+        "Weight": "111",
+        "Season": "2"
+      },
+      {
+        "Source": "JON",
+        "Target": "YGRITTE",
+        "Weight": "110",
+        "Season": "2"
+      }
+    ]
+  },
+  "differences": [
+    "Os arquivos são idênticos; somente got-s2-edges.csv foi usado."
+  ]
+}

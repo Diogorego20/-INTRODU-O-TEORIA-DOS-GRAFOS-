@@ -1,0 +1,2990 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-09">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="weight_strength" type="double" />
+      <attribute id="2" title="cost" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="season" type="string" />
+    </attributes>
+    <nodes>
+      <node id="AEGON" label="AEGON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="AERYS" label="AERYS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ALLISER_THORNE" label="ALLISER_THORNE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="AREO" label="AREO">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ARYA" label="ARYA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BARRISTAN" label="BARRISTAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BLACK_HAIRED_PROSTITUTE" label="BLACK_HAIRED_PROSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BRAN" label="BRAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BRAND" label="BRAND">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BRIAN" label="BRIAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BRIENNE" label="BRIENNE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="BRONN" label="BRONN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="CATELYN" label="CATELYN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="CERSEI" label="CERSEI">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="CERWYN" label="CERWYN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DAARIO" label="DAARIO">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DAENERYS" label="DAENERYS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DAVOS" label="DAVOS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DENYS" label="DENYS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DERRYK" label="DERRYK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DORAN" label="DORAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DORNISH_RIDER" label="DORNISH_RIDER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="EDDISON_TOLLETT" label="EDDISON_TOLLETT">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ELLARIA" label="ELLARIA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="FALYSE" label="FALYSE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="GILLY" label="GILLY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="GRENN" label="GRENN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="GREY_WORM" label="GREY_WORM">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="HIGH_SEPTON" label="HIGH_SEPTON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="HIGH_SPARROW" label="HIGH_SPARROW">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="HIZDAHR" label="HIZDAHR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JAIME" label="JAIME">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JANOS" label="JANOS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JAQEN" label="JAQEN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JEOR" label="JEOR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JOFFREY" label="JOFFREY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JON" label="JON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="JORAH" label="JORAH">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="KARSI" label="KARSI">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="KEVAN" label="KEVAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LANCEL" label="LANCEL">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LITTLEFINGER" label="LITTLEFINGER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LITTLE_SAM" label="LITTLE_SAM">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOBODA" label="LOBODA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOLLYS" label="LOLLYS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LORAS" label="LORAS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LORD_OF_BONES" label="LORD_OF_BONES">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LORD_WEEBLY" label="LORD_WEEBLY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LYANNA" label="LYANNA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LYANNA_MORMONT" label="LYANNA_MORMONT">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="LYSA" label="LYSA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MACE" label="MACE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MADAME" label="MADAME">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_AEMON" label="MAESTER_AEMON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_WOLKAN" label="MAESTER_WOLKAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MAGGY" label="MAGGY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MAGNAR" label="MAGNAR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MALKO" label="MALKO">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MANCE" label="MANCE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MARGAERY" label="MARGAERY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MELARA" label="MELARA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MELISANDRE" label="MELISANDRE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MERYN_TRANT" label="MERYN_TRANT">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MISSANDEI" label="MISSANDEI">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MOSSADOR" label="MOSSADOR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MOUNTAIN" label="MOUNTAIN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MYRANDA" label="MYRANDA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MYRCELLA" label="MYRCELLA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="NED" label="NED">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="NIGHT_KING" label="NIGHT_KING">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="NYMERIA" label="NYMERIA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OBARA" label="OBARA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OBERYN" label="OBERYN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OLENNA" label="OLENNA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OLLY" label="OLLY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OLYVAR" label="OLYVAR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OTHELL_YARWYCK" label="OTHELL_YARWYCK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OWNER" label="OWNER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="PODRICK" label="PODRICK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="PYCELLE" label="PYCELLE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="PYP" label="PYP">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="QUICK" label="QUICK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="QYBURN" label="QYBURN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RAMSAY" label="RAMSAY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RANDYLL" label="RANDYLL">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RENLY" label="RENLY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RHAEGAR" label="RHAEGAR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RHAENYRA" label="RHAENYRA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RICKON" label="RICKON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ROBB" label="ROBB">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ROBERT" label="ROBERT">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ROBIN" label="ROBIN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ROOSE_BOLTON" label="ROOSE_BOLTON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ROYCE" label="ROYCE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SAM" label="SAM">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SANSA" label="SANSA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SELWYN" label="SELWYN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SELYSE" label="SELYSE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SEPTA_UNELLA" label="SEPTA_UNELLA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SHAE" label="SHAE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="SHIREEN" label="SHIREEN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="STANNIS" label="STANNIS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="STEFFON" label="STEFFON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="STRONG" label="STRONG">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TANDA" label="TANDA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="THEON" label="THEON">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="THIN_MAN" label="THIN_MAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TOMMEN" label="TOMMEN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TORMUND" label="TORMUND">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TRYSTANE" label="TRYSTANE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TYCHO" label="TYCHO">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TYENE" label="TYENE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TYRION" label="TYRION">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TYWIN" label="TYWIN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="VARYS" label="VARYS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="WAIF" label="WAIF">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="WALDA" label="WALDA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="WALDER" label="WALDER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="YOHN_ROYCE" label="YOHN_ROYCE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="AEGON" target="MAESTER_AEMON" id="0">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="AEGON" target="RHAENYRA" id="1">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="AERYS" target="BARRISTAN" id="2">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="AERYS" target="DAENERYS" id="3">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="DAVOS" id="4">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="DENYS" id="5">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="EDDISON_TOLLETT" id="6">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="JANOS" id="7">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="JON" id="8">
+        <attvalues>
+          <attvalue for="1" value="32.0" />
+          <attvalue for="2" value="0.03125" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="MAESTER_AEMON" id="9">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="MANCE" id="10">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="OLLY" id="11">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="SAM" id="12">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="STANNIS" id="13">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="ALLISER_THORNE" target="TORMUND" id="14">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="BRONN" id="15">
+        <attvalues>
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="0.05263157894736842" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="DORAN" id="16">
+        <attvalues>
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="0.037037037037037035" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="ELLARIA" id="17">
+        <attvalues>
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="JAIME" id="18">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="MYRCELLA" id="19">
+        <attvalues>
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="NYMERIA" id="20">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="OBARA" id="21">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="TRYSTANE" id="22">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="AREO" target="TYENE" id="23">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="JAQEN" id="24">
+        <attvalues>
+          <attvalue for="1" value="148.0" />
+          <attvalue for="2" value="0.006756756756756757" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="MACE" id="25">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="MADAME" id="26">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="MERYN_TRANT" id="27">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="MOUNTAIN" id="28">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="NED" id="29">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="SANSA" id="30">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="THIN_MAN" id="31">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="TYCHO" id="32">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="WAIF" id="33">
+        <attvalues>
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="0.020833333333333332" />
+        </attvalues>
+      </edge>
+      <edge source="ARYA" target="WALDER" id="34">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="DAARIO" id="35">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="DAENERYS" id="36">
+        <attvalues>
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="0.02631578947368421" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="GREY_WORM" id="37">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="HIZDAHR" id="38">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="MOSSADOR" id="39">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="BARRISTAN" target="RHAEGAR" id="40">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BLACK_HAIRED_PROSTITUTE" target="TYRION" id="41">
+        <attvalues>
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="BRAN" target="RICKON" id="42">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="BRAN" target="SANSA" id="43">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BRAN" target="THEON" id="44">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="BRAND" target="DERRYK" id="45">
+        <attvalues>
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="BRAND" target="SAM" id="46">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="BRIAN" target="JON" id="47">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="CATELYN" id="48">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="LITTLEFINGER" id="49">
+        <attvalues>
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="0.037037037037037035" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="PODRICK" id="50">
+        <attvalues>
+          <attvalue for="1" value="90.0" />
+          <attvalue for="2" value="0.011111111111111112" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="RENLY" id="51">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="ROBERT" id="52">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="SANSA" id="53">
+        <attvalues>
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="SELWYN" id="54">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BRIENNE" target="STANNIS" id="55">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="CERSEI" id="56">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="DORAN" id="57">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="DORNISH_RIDER" id="58">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="FALYSE" id="59">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="JAIME" id="60">
+        <attvalues>
+          <attvalue for="1" value="121.0" />
+          <attvalue for="2" value="0.008264462809917356" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="LOLLYS" id="61">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="MYRCELLA" id="62">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="NYMERIA" id="63">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="OBARA" id="64">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="TRYSTANE" id="65">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="BRONN" target="TYENE" id="66">
+        <attvalues>
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="0.029411764705882353" />
+        </attvalues>
+      </edge>
+      <edge source="CATELYN" target="LITTLEFINGER" id="67">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="CATELYN" target="NED" id="68">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CATELYN" target="ROBB" id="69">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CATELYN" target="SANSA" id="70">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="ELLARIA" id="71">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="HIGH_SEPTON" id="72">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="HIGH_SPARROW" id="73">
+        <attvalues>
+          <attvalue for="1" value="96.0" />
+          <attvalue for="2" value="0.010416666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="JAIME" id="74">
+        <attvalues>
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="0.025" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="JOFFREY" id="75">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="JORAH" id="76">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="KEVAN" id="77">
+        <attvalues>
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.047619047619047616" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="LANCEL" id="78">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="LITTLEFINGER" id="79">
+        <attvalues>
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="0.02" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="LORAS" id="80">
+        <attvalues>
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MACE" id="81">
+        <attvalues>
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="0.03571428571428571" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MAGGY" id="82">
+        <attvalues>
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MARGAERY" id="83">
+        <attvalues>
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="0.021739130434782608" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MELARA" id="84">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MERYN_TRANT" id="85">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="MYRCELLA" id="86">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="OBERYN" id="87">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="OLENNA" id="88">
+        <attvalues>
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="0.038461538461538464" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="OLYVAR" id="89">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="PYCELLE" id="90">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="QYBURN" id="91">
+        <attvalues>
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="0.024390243902439025" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="ROBERT" id="92">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="ROOSE_BOLTON" id="93">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="SANSA" id="94">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="SEPTA_UNELLA" id="95">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="TOMMEN" id="96">
+        <attvalues>
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="0.016129032258064516" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="TYRION" id="97">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="TYWIN" id="98">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CERSEI" target="VARYS" id="99">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="CERWYN" target="RAMSAY" id="100">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="DAENERYS" id="101">
+        <attvalues>
+          <attvalue for="1" value="81.0" />
+          <attvalue for="2" value="0.012345679012345678" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="GREY_WORM" id="102">
+        <attvalues>
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="HIZDAHR" id="103">
+        <attvalues>
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.041666666666666664" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="JORAH" id="104">
+        <attvalues>
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="MISSANDEI" id="105">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="MOSSADOR" id="106">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="QUICK" id="107">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="STRONG" id="108">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAARIO" target="TYRION" id="109">
+        <attvalues>
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="0.037037037037037035" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="GREY_WORM" id="110">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="HIZDAHR" id="111">
+        <attvalues>
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="0.014492753623188406" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="JORAH" id="112">
+        <attvalues>
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="0.025" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="MISSANDEI" id="113">
+        <attvalues>
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="0.045454545454545456" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="MOSSADOR" id="114">
+        <attvalues>
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="0.03571428571428571" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="OWNER" id="115">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="QUICK" id="116">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="ROBERT" id="117">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="STRONG" id="118">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="TYRION" id="119">
+        <attvalues>
+          <attvalue for="1" value="98.0" />
+          <attvalue for="2" value="0.01020408163265306" />
+        </attvalues>
+      </edge>
+      <edge source="DAENERYS" target="VARYS" id="120">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="EDDISON_TOLLETT" id="121">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="JON" id="122">
+        <attvalues>
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="0.02857142857142857" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="MELISANDRE" id="123">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="OLLY" id="124">
+        <attvalues>
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="SAM" id="125">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="SELYSE" id="126">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="SHIREEN" id="127">
+        <attvalues>
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="0.02857142857142857" />
+        </attvalues>
+      </edge>
+      <edge source="DAVOS" target="STANNIS" id="128">
+        <attvalues>
+          <attvalue for="1" value="68.0" />
+          <attvalue for="2" value="0.014705882352941176" />
+        </attvalues>
+      </edge>
+      <edge source="DERRYK" target="GILLY" id="129">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="DERRYK" target="SAM" id="130">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="ELLARIA" id="131">
+        <attvalues>
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="0.030303030303030304" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="JAIME" id="132">
+        <attvalues>
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.041666666666666664" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="MYRCELLA" id="133">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="OBARA" id="134">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="OBERYN" id="135">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="TOMMEN" id="136">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="TRYSTANE" id="137">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DORAN" target="TYENE" id="138">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DORNISH_RIDER" target="JAIME" id="139">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="GILLY" id="140">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="JANOS" id="141">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="JON" id="142">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="LITTLE_SAM" id="143">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="OLLY" id="144">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="PYP" id="145">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="SAM" id="146">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="STANNIS" id="147">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="EDDISON_TOLLETT" target="TORMUND" id="148">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="JAIME" id="149">
+        <attvalues>
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="0.05263157894736842" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="MYRCELLA" id="150">
+        <attvalues>
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="NYMERIA" id="151">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="OBARA" id="152">
+        <attvalues>
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="OBERYN" id="153">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="TRYSTANE" id="154">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ELLARIA" target="TYENE" id="155">
+        <attvalues>
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="JANOS" id="156">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="JON" id="157">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="LITTLE_SAM" id="158">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="MAESTER_AEMON" id="159">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="MELISANDRE" id="160">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="OLLY" id="161">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="SAM" id="162">
+        <attvalues>
+          <attvalue for="1" value="83.0" />
+          <attvalue for="2" value="0.012048192771084338" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="SELYSE" id="163">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="SHIREEN" id="164">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="GILLY" target="STANNIS" id="165">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="GRENN" target="PYP" id="166">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="GREY_WORM" target="JORAH" id="167">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="GREY_WORM" target="MISSANDEI" id="168">
+        <attvalues>
+          <attvalue for="1" value="29.0" />
+          <attvalue for="2" value="0.034482758620689655" />
+        </attvalues>
+      </edge>
+      <edge source="GREY_WORM" target="MOSSADOR" id="169">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="GREY_WORM" target="TYRION" id="170">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="HIGH_SPARROW" id="171">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="LANCEL" id="172">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="MACE" id="173">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="OLYVAR" id="174">
+        <attvalues>
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="PYCELLE" id="175">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SEPTON" target="QYBURN" id="176">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="LORAS" id="177">
+        <attvalues>
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.047619047619047616" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="MARGAERY" id="178">
+        <attvalues>
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="MERYN_TRANT" id="179">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="OLENNA" id="180">
+        <attvalues>
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="0.03333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="OLYVAR" id="181">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="RENLY" id="182">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="ROBERT" id="183">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="SEPTA_UNELLA" id="184">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIGH_SPARROW" target="TOMMEN" id="185">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="JORAH" id="186">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="MISSANDEI" id="187">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="MOSSADOR" id="188">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="OWNER" id="189">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="QUICK" id="190">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="STRONG" id="191">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HIZDAHR" target="TYRION" id="192">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="LITTLEFINGER" id="193">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="LOLLYS" id="194">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="MYRCELLA" id="195">
+        <attvalues>
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="0.017241379310344827" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="NYMERIA" id="196">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="OBARA" id="197">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="TOMMEN" id="198">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="TRYSTANE" id="199">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="TYENE" id="200">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="TYRION" id="201">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="TYWIN" id="202">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="JAIME" target="VARYS" id="203">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JANOS" target="JON" id="204">
+        <attvalues>
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="JANOS" target="OLLY" id="205">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JANOS" target="SAM" id="206">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="JANOS" target="STANNIS" id="207">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JAQEN" target="MACE" id="208">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAQEN" target="MERYN_TRANT" id="209">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAQEN" target="THIN_MAN" id="210">
+        <attvalues>
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="JAQEN" target="TYCHO" id="211">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAQEN" target="WAIF" id="212">
+        <attvalues>
+          <attvalue for="1" value="32.0" />
+          <attvalue for="2" value="0.03125" />
+        </attvalues>
+      </edge>
+      <edge source="JEOR" target="JON" id="213">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JEOR" target="SAM" id="214">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="MARGAERY" id="215">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="RENLY" id="216">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="ROBERT" id="217">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="SANSA" id="218">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="TOMMEN" id="219">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="TYRION" id="220">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JOFFREY" target="TYWIN" id="221">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="KARSI" id="222">
+        <attvalues>
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="0.03571428571428571" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="LITTLE_SAM" id="223">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="LOBODA" id="224">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="LORD_OF_BONES" id="225">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="LORD_WEEBLY" id="226">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="MAESTER_AEMON" id="227">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="MANCE" id="228">
+        <attvalues>
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="0.030303030303030304" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="MELISANDRE" id="229">
+        <attvalues>
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="0.02564102564102564" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="NIGHT_KING" id="230">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="OLLY" id="231">
+        <attvalues>
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="0.024390243902439025" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="OTHELL_YARWYCK" id="232">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="ROBB" id="233">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="ROOSE_BOLTON" id="234">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="SAM" id="235">
+        <attvalues>
+          <attvalue for="1" value="85.0" />
+          <attvalue for="2" value="0.011764705882352941" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="SELYSE" id="236">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="SHIREEN" id="237">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="STANNIS" id="238">
+        <attvalues>
+          <attvalue for="1" value="90.0" />
+          <attvalue for="2" value="0.011111111111111112" />
+        </attvalues>
+      </edge>
+      <edge source="JON" target="TORMUND" id="239">
+        <attvalues>
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="0.015873015873015872" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="MALKO" id="240">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="MISSANDEI" id="241">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="MOSSADOR" id="242">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="OWNER" id="243">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="TYRION" id="244">
+        <attvalues>
+          <attvalue for="1" value="141.0" />
+          <attvalue for="2" value="0.0070921985815602835" />
+        </attvalues>
+      </edge>
+      <edge source="JORAH" target="VARYS" id="245">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="KARSI" target="LOBODA" id="246">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="KARSI" target="NIGHT_KING" id="247">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="KARSI" target="TORMUND" id="248">
+        <attvalues>
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="0.05263157894736842" />
+        </attvalues>
+      </edge>
+      <edge source="KEVAN" target="LANCEL" id="249">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="KEVAN" target="PYCELLE" id="250">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="KEVAN" target="QYBURN" id="251">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="KEVAN" target="TOMMEN" id="252">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="KEVAN" target="TYWIN" id="253">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LANCEL" target="LITTLEFINGER" id="254">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="LANCEL" target="LORAS" id="255">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="LANCEL" target="OLYVAR" id="256">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LANCEL" target="PYCELLE" id="257">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="LORAS" id="258">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="LYANNA" id="259">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="LYSA" id="260">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="MYRANDA" id="261">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="NED" id="262">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="OLENNA" id="263">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="OLYVAR" id="264">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="PODRICK" id="265">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="RAMSAY" id="266">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="RENLY" id="267">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="ROBB" id="268">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="ROBIN" id="269">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="ROOSE_BOLTON" id="270">
+        <attvalues>
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="0.045454545454545456" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="ROYCE" id="271">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="SANSA" id="272">
+        <attvalues>
+          <attvalue for="1" value="89.0" />
+          <attvalue for="2" value="0.011235955056179775" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="STANNIS" id="273">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="THEON" id="274">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="TOMMEN" id="275">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="WALDA" id="276">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLEFINGER" target="YOHN_ROYCE" id="277">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLE_SAM" target="MELISANDRE" id="278">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLE_SAM" target="OLLY" id="279">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLE_SAM" target="SAM" id="280">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="LITTLE_SAM" target="STANNIS" id="281">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LOBODA" target="TORMUND" id="282">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LOLLYS" target="TANDA" id="283">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LORAS" target="MARGAERY" id="284">
+        <attvalues>
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="0.03333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LORAS" target="OLENNA" id="285">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="LORAS" target="OLYVAR" id="286">
+        <attvalues>
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="LORAS" target="TOMMEN" id="287">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="LORAS" target="TYWIN" id="288">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LORD_OF_BONES" target="TORMUND" id="289">
+        <attvalues>
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LORD_WEEBLY" target="SAM" id="290">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LYANNA" target="SANSA" id="291">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LYANNA_MORMONT" target="STANNIS" id="292">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="MERYN_TRANT" id="293">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="PYCELLE" id="294">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="QYBURN" id="295">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="THIN_MAN" id="296">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="TOMMEN" id="297">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE" target="TYCHO" id="298">
+        <attvalues>
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="0.05263157894736842" />
+        </attvalues>
+      </edge>
+      <edge source="MADAME" target="MERYN_TRANT" id="299">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="MAESTER_AEMON" target="SAM" id="300">
+        <attvalues>
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="MAESTER_WOLKAN" target="ROOSE_BOLTON" id="301">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MAGGY" target="MELARA" id="302">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MAGGY" target="ROBERT" id="303">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MAGNAR" target="SAM" id="304">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MALKO" target="TYRION" id="305">
+        <attvalues>
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="MANCE" target="MELISANDRE" id="306">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="MANCE" target="SAM" id="307">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MANCE" target="STANNIS" id="308">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="MANCE" target="TORMUND" id="309">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="MARGAERY" target="OLENNA" id="310">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="MARGAERY" target="OLYVAR" id="311">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="MARGAERY" target="ROBERT" id="312">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MARGAERY" target="TOMMEN" id="313">
+        <attvalues>
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="0.012658227848101266" />
+        </attvalues>
+      </edge>
+      <edge source="MELISANDRE" target="OLLY" id="314">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MELISANDRE" target="SAM" id="315">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="MELISANDRE" target="SELYSE" id="316">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="MELISANDRE" target="SHIREEN" id="317">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="MELISANDRE" target="STANNIS" id="318">
+        <attvalues>
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="0.019230769230769232" />
+        </attvalues>
+      </edge>
+      <edge source="MERYN_TRANT" target="MOUNTAIN" id="319">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MERYN_TRANT" target="QYBURN" id="320">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="MERYN_TRANT" target="THIN_MAN" id="321">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MERYN_TRANT" target="TYCHO" id="322">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MISSANDEI" target="TYRION" id="323">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="MOSSADOR" target="TYRION" id="324">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MYRANDA" target="RAMSAY" id="325">
+        <attvalues>
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="0.03571428571428571" />
+        </attvalues>
+      </edge>
+      <edge source="MYRANDA" target="ROOSE_BOLTON" id="326">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="MYRANDA" target="SANSA" id="327">
+        <attvalues>
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="0.017241379310344827" />
+        </attvalues>
+      </edge>
+      <edge source="MYRANDA" target="THEON" id="328">
+        <attvalues>
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="MYRANDA" target="WALDA" id="329">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="MYRCELLA" target="OBARA" id="330">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="MYRCELLA" target="TRYSTANE" id="331">
+        <attvalues>
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.041666666666666664" />
+        </attvalues>
+      </edge>
+      <edge source="NED" target="ROBERT" id="332">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="NED" target="SANSA" id="333">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="NED" target="STANNIS" id="334">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="NED" target="THEON" id="335">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="NYMERIA" target="OBARA" id="336">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="NYMERIA" target="TYENE" id="337">
+        <attvalues>
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="0.07142857142857142" />
+        </attvalues>
+      </edge>
+      <edge source="OBARA" target="OBERYN" id="338">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="OBARA" target="TYENE" id="339">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="OLENNA" target="OLYVAR" id="340">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OLLY" target="SAM" id="341">
+        <attvalues>
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="0.03333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="OLLY" target="STANNIS" id="342">
+        <attvalues>
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="OLYVAR" target="TOMMEN" id="343">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OWNER" target="TYRION" id="344">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="PODRICK" target="RENLY" id="345">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="PODRICK" target="SANSA" id="346">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="PODRICK" target="STANNIS" id="347">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="PODRICK" target="TYRION" id="348">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="PYCELLE" target="QYBURN" id="349">
+        <attvalues>
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="PYCELLE" target="VARYS" id="350">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUICK" target="STRONG" id="351">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="QUICK" target="TYRION" id="352">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="RAMSAY" target="ROOSE_BOLTON" id="353">
+        <attvalues>
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="0.0196078431372549" />
+        </attvalues>
+      </edge>
+      <edge source="RAMSAY" target="SANSA" id="354">
+        <attvalues>
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="0.0196078431372549" />
+        </attvalues>
+      </edge>
+      <edge source="RAMSAY" target="STANNIS" id="355">
+        <attvalues>
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="RAMSAY" target="THEON" id="356">
+        <attvalues>
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="0.017241379310344827" />
+        </attvalues>
+      </edge>
+      <edge source="RAMSAY" target="WALDA" id="357">
+        <attvalues>
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="RANDYLL" target="SAM" id="358">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="RHAEGAR" target="ROBERT" id="359">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="RICKON" target="SANSA" id="360">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="RICKON" target="THEON" id="361">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="ROBB" target="SANSA" id="362">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROBB" target="THEON" id="363">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROBERT" target="STANNIS" id="364">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ROBERT" target="TYWIN" id="365">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROBERT" target="VARYS" id="366">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROBIN" target="ROYCE" id="367">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROBIN" target="SANSA" id="368">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ROOSE_BOLTON" target="SANSA" id="369">
+        <attvalues>
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="ROOSE_BOLTON" target="STANNIS" id="370">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ROOSE_BOLTON" target="THEON" id="371">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="ROOSE_BOLTON" target="TYWIN" id="372">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="ROOSE_BOLTON" target="WALDA" id="373">
+        <attvalues>
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="ROYCE" target="SANSA" id="374">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="SAM" target="SELYSE" id="375">
+        <attvalues>
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="SAM" target="SHIREEN" id="376">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="SAM" target="STANNIS" id="377">
+        <attvalues>
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.041666666666666664" />
+        </attvalues>
+      </edge>
+      <edge source="SANSA" target="STANNIS" id="378">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="SANSA" target="THEON" id="379">
+        <attvalues>
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="0.012987012987012988" />
+        </attvalues>
+      </edge>
+      <edge source="SANSA" target="WALDA" id="380">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="SANSA" target="YOHN_ROYCE" id="381">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="SELYSE" target="SHIREEN" id="382">
+        <attvalues>
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="SELYSE" target="STANNIS" id="383">
+        <attvalues>
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="SHAE" target="TYRION" id="384">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="SHAE" target="TYWIN" id="385">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="SHIREEN" target="STANNIS" id="386">
+        <attvalues>
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="0.02127659574468085" />
+        </attvalues>
+      </edge>
+      <edge source="STANNIS" target="STEFFON" id="387">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="STANNIS" target="TORMUND" id="388">
+        <attvalues>
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="STRONG" target="TYRION" id="389">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="THEON" target="WALDA" id="390">
+        <attvalues>
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="THIN_MAN" target="TYCHO" id="391">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="THIN_MAN" target="WAIF" id="392">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="TOMMEN" target="TYWIN" id="393">
+        <attvalues>
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="TYRION" target="TYWIN" id="394">
+        <attvalues>
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="TYRION" target="VARYS" id="395">
+        <attvalues>
+          <attvalue for="1" value="110.0" />
+          <attvalue for="2" value="0.00909090909090909" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

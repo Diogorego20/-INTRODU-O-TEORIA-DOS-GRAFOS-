@@ -1,0 +1,11 @@
+{
+  "nome": "entrega_atividade_temporal_Diogo_Rego",
+  "autor": "Diogo da Silva Rego",
+  "matricula": "20240045381",
+  "professora": "Ana Flávia",
+  "escopo_got": "temporadas 2 a 8",
+  "componentes": ["python-igraph", "leidenalg", "networkx", "snakemake", "plotly"],
+  "notebook_principal": "notebooks/analise_grafo_temporal_got_colab.ipynb",
+  "documentacao_pesquisa": "docs/analise_repositorios_github.md",
+  "dados_originais_preservados": true
+}

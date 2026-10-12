@@ -1,0 +1,33 @@
+{
+  "temporadas": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "seed_layout": 42,
+  "sensibilidade_leiden_seeds": [
+    42,
+    43,
+    44
+  ],
+  "sensibilidade_leiden_resolutions": [
+    0.75,
+    1.0,
+    1.25
+  ],
+  "weight_strength": "soma de Weight após limpeza e agregação de pares não direcionados",
+  "cost": "1 / weight_strength; usado em caminhos, betweenness e closeness ponderadas",
+  "direcao": "não direcionado",
+  "temporadas_cobertas": "S2-S8; não há arquivo S1 na entrada fornecida",
+  "bibliotecas": {
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "networkx": "3.7"
+  },
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.18.38+-x86_64-with-glibc2.39"
+}

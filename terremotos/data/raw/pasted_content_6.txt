@@ -1,0 +1,277 @@
+Atue como cientista de dados especializado em Teoria dos Grafos,
+Network Science, grafos temporais, Python, pandas, NetworkX e visualização
+de redes.
+
+OBJETIVO
+
+Criar uma análise reproduzível da evolução temporal da rede de personagens
+de Game of Thrones, considerando cada temporada como um snapshot temporal
+da rede.
+
+ARQUIVOS LOCAIS
+
+Use os seguintes arquivos:
+
+C:\Users\DETRAN\Downloads\got-s2-edges.csv
+C:\Users\DETRAN\Downloads\got-s3-edges.csv
+C:\Users\DETRAN\Downloads\got-s4-edges.csv
+C:\Users\DETRAN\Downloads\got-s5-edges.csv
+C:\Users\DETRAN\Downloads\got-s6-edges.csv
+C:\Users\DETRAN\Downloads\got-s7-edges.csv
+C:\Users\DETRAN\Downloads\got-s8-edges.csv
+
+Existe também:
+
+C:\Users\DETRAN\Downloads\got-s2-edges (1).csv
+
+Antes da análise, compare got-s2-edges.csv e got-s2-edges (1).csv.
+Calcule hash, dimensões, nomes das colunas e igualdade do conteúdo.
+
+Se forem idênticos, utilize apenas got-s2-edges.csv.
+Se forem diferentes, descreva exatamente as diferenças e não combine os
+arquivos automaticamente.
+
+Não existe arquivo da temporada 1 na lista fornecida. Não invente dados e
+não renumere a temporada 2 como temporada 1. Registre explicitamente que a
+análise cobre as temporadas 2 a 8.
+
+ETAPA 1 — INSPEÇÃO SEGURA
+
+1. Verifique se todos os arquivos existem.
+2. Detecte automaticamente:
+   - delimitador;
+   - codificação;
+   - cabeçalho;
+   - nomes das colunas;
+   - tipos de dados;
+   - valores ausentes;
+   - linhas duplicadas.
+3. Mostre as cinco primeiras linhas de cada arquivo.
+4. Identifique quais colunas representam:
+   - vértice de origem;
+   - vértice de destino;
+   - peso da relação, se existir.
+5. Não suponha nomes de colunas antes da inspeção.
+6. Não altere os arquivos originais.
+
+ETAPA 2 — LIMPEZA
+
+Para cada temporada:
+
+1. Remova espaços excedentes dos nomes.
+2. Padronize diferenças de maiúsculas e minúsculas apenas se isso não
+   fundir personagens diferentes.
+3. Trate valores ausentes.
+4. Remova arestas duplicadas.
+5. Verifique loops, como personagem ligado ao mesmo personagem.
+6. Converta pesos para formato numérico.
+7. Em grafo não dirigido, trate A-B e B-A como a mesma aresta.
+8. Registre todas as transformações realizadas.
+
+ETAPA 3 — CONSTRUÇÃO DOS GRAFOS
+
+Use um grafo NetworkX não dirigido para cada temporada, salvo se os dados
+demonstrarem explicitamente que as relações são direcionadas.
+
+Crie:
+
+grafos[2]
+grafos[3]
+grafos[4]
+grafos[5]
+grafos[6]
+grafos[7]
+grafos[8]
+
+Cada grafo deve guardar o atributo:
+
+G.graph["temporada"] = numero_da_temporada
+
+Se houver coluna de peso, armazene-a no atributo "weight".
+
+ETAPA 4 — MÉTRICAS POR TEMPORADA
+
+Calcule, para cada temporada:
+
+- número de vértices;
+- número de arestas;
+- densidade;
+- quantidade de componentes conexas;
+- tamanho da maior componente;
+- grau médio;
+- grau máximo;
+- assortatividade de grau;
+- transitividade;
+- clustering médio;
+- diâmetro da maior componente;
+- raio da maior componente;
+- comprimento médio dos caminhos da maior componente.
+
+Não calcule diâmetro, raio ou caminho médio diretamente em um grafo
+desconexo. Use somente a maior componente conexa e informe essa decisão.
+
+Calcule também:
+
+- degree centrality;
+- betweenness centrality;
+- closeness centrality;
+- eigenvector centrality;
+- PageRank.
+
+Caso eigenvector centrality não convirja, registre o problema e use uma
+alternativa apropriada, sem ocultar o erro.
+
+ETAPA 5 — COMUNIDADES
+
+Aplique um método de detecção de comunidades compatível com o ambiente,
+preferencialmente Louvain.
+
+Se Louvain não estiver disponível, use greedy modularity communities.
+
+Para cada temporada, informe:
+
+- número de comunidades;
+- tamanho de cada comunidade;
+- modularidade;
+- personagens principais de cada comunidade.
+
+Use pesos quando estiverem disponíveis e forem semanticamente válidos.
+
+ETAPA 6 — EVOLUÇÃO TEMPORAL
+
+Compare temporadas consecutivas:
+
+2→3, 3→4, 4→5, 5→6, 6→7 e 7→8.
+
+Calcule:
+
+- vértices que surgiram;
+- vértices que desapareceram;
+- arestas novas;
+- arestas removidas;
+- persistência de vértices;
+- persistência de arestas;
+- similaridade de Jaccard entre conjuntos de vértices;
+- similaridade de Jaccard entre conjuntos de arestas;
+- evolução da densidade;
+- evolução do grau médio;
+- evolução da modularidade.
+
+Crie uma tabela longitudinal por personagem contendo:
+
+temporada,
+personagem,
+grau,
+degree_centrality,
+betweenness,
+closeness,
+eigenvector_centrality,
+pagerank,
+comunidade.
+
+Identifique:
+
+- personagens presentes em todas as temporadas analisadas;
+- personagens com maior crescimento de centralidade;
+- personagens com maior queda de centralidade;
+- personagens que entram ou saem da rede;
+- mudanças relevantes na posição estrutural.
+
+Não transforme resultados estruturais automaticamente em afirmações sobre
+a narrativa. Separe observação matemática de interpretação.
+
+ETAPA 7 — VISUALIZAÇÕES
+
+Produza:
+
+1. Série temporal do número de vértices.
+2. Série temporal do número de arestas.
+3. Série temporal da densidade.
+4. Série temporal do grau médio.
+5. Série temporal da modularidade.
+6. Heatmap das centralidades dos 15 personagens mais relevantes.
+7. Gráfico da permanência dos personagens por temporada.
+8. Rede de cada temporada, colorida por comunidade.
+9. Comparação dos dez personagens mais centrais em cada temporada.
+10. Visualização das arestas adicionadas e removidas entre temporadas.
+
+Mantenha as posições dos personagens tão estáveis quanto possível entre
+temporadas para facilitar a comparação visual.
+
+Não produza grafos ilegíveis. Quando necessário, visualize apenas a maior
+componente ou aplique um filtro claramente documentado.
+
+ETAPA 8 — VALIDAÇÃO
+
+Inclua verificações explícitas:
+
+- soma dos graus igual a duas vezes o número de arestas, em grafos simples
+  não dirigidos;
+- pesos não negativos, se essa for uma exigência dos dados;
+- ausência de identificadores vazios;
+- temporada associada ao arquivo correto;
+- quantidade de arquivos carregados;
+- ausência de duplicação da temporada 2;
+- consistência dos nomes dos personagens entre temporadas.
+
+Diferencie:
+
+- fato calculado;
+- decisão metodológica;
+- hipótese interpretativa.
+
+ETAPA 9 — SAÍDAS
+
+Crie os seguintes arquivos:
+
+analise_grafo_temporal_got.ipynb
+metricas_por_temporada.csv
+centralidades_por_personagem.csv
+comparacao_temporadas.csv
+comunidades_por_temporada.csv
+relatorio_grafo_temporal.md
+requirements.txt
+
+Exporte ainda cada grafo nos formatos GraphML e GEXF.
+
+REQUISITOS DE CÓDIGO
+
+- Python atual;
+- pandas;
+- NetworkX;
+- matplotlib;
+- seaborn;
+- pathlib;
+- código dividido em funções;
+- type hints;
+- docstrings;
+- mensagens claras de erro;
+- caminhos definidos em uma única célula de configuração;
+- nenhuma modificação nos CSVs originais;
+- nenhuma informação inventada.
+
+FORMATO DO RELATÓRIO
+
+O relatório final deve apresentar:
+
+1. descrição dos dados;
+2. método;
+3. limpeza efetuada;
+4. métricas por temporada;
+5. evolução temporal;
+6. centralidades;
+7. comunidades;
+8. visualizações;
+9. interpretação;
+10. limitações;
+11. conclusões.
+
+Ao final, responda:
+
+1. Qual temporada possui a rede mais densa?
+2. Qual possui mais personagens?
+3. Qual possui mais relações?
+4. Quais personagens são mais persistentes?
+5. Quem apresenta maior mudança de centralidade?
+6. Em qual transição ocorre a maior mudança estrutural?
+7. Quais resultados dependem do peso das arestas?

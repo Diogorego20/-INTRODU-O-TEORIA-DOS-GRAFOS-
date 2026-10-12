@@ -1,0 +1,33 @@
+{
+  "criterio": "intervalo consecutivo de cinco dias com maior número de terremotos",
+  "inicio_utc": "2026-09-25T00:00:00+00:00",
+  "fim_utc": "2026-09-29T00:00:00+00:00",
+  "dias": [
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "terremotos_no_intervalo": 102,
+  "contagem_por_dia": {
+    "2026-09-25": 18,
+    "2026-09-26": 29,
+    "2026-09-27": 13,
+    "2026-09-28": 25,
+    "2026-09-29": 17
+  },
+  "total_maximo_no_intervalo": 102,
+  "eventos_total_arquivo": 533,
+  "dias_total_arquivo": 31,
+  "modelo_eventos": {
+    "nos": 102,
+    "arestas": 101
+  },
+  "modelo_celulas": {
+    "nos": 39,
+    "arestas": 65,
+    "tamanho_celula_graus": 10.0
+  },
+  "nota_metodologica": "A análise por snapshots/células é um modelo analítico; não representa causalidade nem previsão sísmica."
+}

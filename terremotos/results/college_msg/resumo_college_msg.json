@@ -1,0 +1,21 @@
+{
+  "autor": "Diogo da Silva Rego",
+  "matricula": "20240045381",
+  "source_url": "https://snap.stanford.edu/data/email-Eu-core-temporal.txt.gz",
+  "arquivo_notebook": "college_msg.ipynb",
+  "observacao": "O notebook recebido usa a URL email-Eu-core-temporal.txt.gz; o nome college_msg.ipynb foi preservado como identificação da atividade.",
+  "interacoes": 332334,
+  "nos_unicos": 986,
+  "inicio_utc": "1970-01-01T00:00:00+00:00",
+  "fim_utc": "1972-03-14T22:14:14+00:00",
+  "janelas": 115,
+  "janela_dias": 7,
+  "saidas": [
+    "tabelas/college_msg_metricas_por_janela.csv",
+    "tabelas/college_msg_centralidades_temporais.csv",
+    "figuras/college_msg_evolucao_centralidades.png",
+    "figuras/college_msg_evolucao_rede.png"
+  ],
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.18.38+-x86_64-with-glibc2.39"
+}

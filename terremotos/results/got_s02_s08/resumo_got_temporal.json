@@ -1,0 +1,44 @@
+{
+  "autor": "Diogo da Silva Rego",
+  "matricula": "20240045381",
+  "professora": "Ana Flávia",
+  "escopo": "temporadas 2 a 8; got-s2-edges.csv e got-s2-edges(1).csv foram comparados; somente o primeiro foi utilizado",
+  "temporadas": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "nos_uniao": 369,
+  "arestas_uniao": 2346,
+  "peso_total_uniao": 40640.0,
+  "personagens_presentes_todas_temporadas": 29,
+  "comunidades_uniao": 7,
+  "modularidade_leiden_uniao": 0.47822181131666947,
+  "qualidade_objetivo_leiden_uniao": 43828.401617864176,
+  "validacao": {
+    "soma_graus_igual_a_duas_arestas": true,
+    "pesos_nao_negativos": true,
+    "identificadores_vazios": 0,
+    "temporadas_validadas": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "saidas": {
+    "metricas": "tabelas/metricas_por_temporada.csv",
+    "centralidades": "tabelas/centralidades_por_personagem.csv",
+    "comunidades": "tabelas/comunidades_por_temporada.csv",
+    "comparacao": "tabelas/comparacao_temporadas_consecutivas.csv",
+    "interativo": "interativo/got_temporal_s02_s08_interativo.html",
+    "gexf": "grafos/got_s2.gexf até got_s8.gexf e got_uniao_s02_s08.gexf"
+  }
+}

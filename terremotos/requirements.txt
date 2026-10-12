@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn==0.13.2
+plotly==6.9.0
+networkx==3.7
+python-igraph==1.0.0
+leidenalg==0.12.0
+geopandas
+pyogrio
+snakemake==9.27.0

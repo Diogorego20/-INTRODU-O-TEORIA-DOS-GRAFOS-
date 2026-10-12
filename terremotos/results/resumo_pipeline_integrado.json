@@ -1,0 +1,100 @@
+{
+  "got": {
+    "autor": "Diogo da Silva Rego",
+    "matricula": "20240045381",
+    "professora": "Ana Flávia",
+    "escopo": "temporadas 2 a 8; got-s2-edges.csv e got-s2-edges(1).csv foram comparados; somente o primeiro foi utilizado",
+    "temporadas": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "nos_uniao": 369,
+    "arestas_uniao": 2346,
+    "peso_total_uniao": 40640.0,
+    "personagens_presentes_todas_temporadas": 29,
+    "comunidades_uniao": 7,
+    "modularidade_leiden_uniao": 0.47822181131666947,
+    "qualidade_objetivo_leiden_uniao": 43828.401617864176,
+    "validacao": {
+      "soma_graus_igual_a_duas_arestas": true,
+      "pesos_nao_negativos": true,
+      "identificadores_vazios": 0,
+      "temporadas_validadas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "saidas": {
+      "metricas": "tabelas/metricas_por_temporada.csv",
+      "centralidades": "tabelas/centralidades_por_personagem.csv",
+      "comunidades": "tabelas/comunidades_por_temporada.csv",
+      "comparacao": "tabelas/comparacao_temporadas_consecutivas.csv",
+      "interativo": "interativo/got_temporal_s02_s08_interativo.html",
+      "gexf": "grafos/got_s2.gexf até got_s8.gexf e got_uniao_s02_s08.gexf"
+    }
+  },
+  "terremotos": {
+    "criterio": "intervalo consecutivo de cinco dias com maior número de terremotos",
+    "inicio_utc": "2026-09-25T00:00:00+00:00",
+    "fim_utc": "2026-09-29T00:00:00+00:00",
+    "dias": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "terremotos_no_intervalo": 102,
+    "contagem_por_dia": {
+      "2026-09-25": 18,
+      "2026-09-26": 29,
+      "2026-09-27": 13,
+      "2026-09-28": 25,
+      "2026-09-29": 17
+    },
+    "total_maximo_no_intervalo": 102,
+    "eventos_total_arquivo": 533,
+    "dias_total_arquivo": 31,
+    "modelo_eventos": {
+      "nos": 102,
+      "arestas": 101
+    },
+    "modelo_celulas": {
+      "nos": 39,
+      "arestas": 65,
+      "tamanho_celula_graus": 10.0
+    },
+    "nota_metodologica": "A análise por snapshots/células é um modelo analítico; não representa causalidade nem previsão sísmica."
+  },
+  "college_msg": {
+    "autor": "Diogo da Silva Rego",
+    "matricula": "20240045381",
+    "source_url": "https://snap.stanford.edu/data/email-Eu-core-temporal.txt.gz",
+    "arquivo_notebook": "college_msg.ipynb",
+    "observacao": "O notebook recebido usa a URL email-Eu-core-temporal.txt.gz; o nome college_msg.ipynb foi preservado como identificação da atividade.",
+    "interacoes": 332334,
+    "nos_unicos": 986,
+    "inicio_utc": "1970-01-01T00:00:00+00:00",
+    "fim_utc": "1972-03-14T22:14:14+00:00",
+    "janelas": 115,
+    "janela_dias": 7,
+    "saidas": [
+      "tabelas/college_msg_metricas_por_janela.csv",
+      "tabelas/college_msg_centralidades_temporais.csv",
+      "figuras/college_msg_evolucao_centralidades.png",
+      "figuras/college_msg_evolucao_rede.png"
+    ],
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "platform": "Linux-6.18.38+-x86_64-with-glibc2.39"
+  }
+}

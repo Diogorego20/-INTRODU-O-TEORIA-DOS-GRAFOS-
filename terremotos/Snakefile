@@ -1,0 +1,40 @@
+configfile: "config/config.yaml"
+
+SEASONS = config["seasons"]
+
+rule all:
+    input:
+        "results/got_s02_s08/resumo_got_temporal.json",
+        "results/terremotos/resumo_terremotos_temporal.json",
+        "results/college_msg/resumo_college_msg.json"
+
+rule got_s02_s08:
+    input:
+        expand("data/raw/got-s{season}-edges.csv", season=SEASONS)
+    output:
+        "results/got_s02_s08/resumo_got_temporal.json"
+    threads: 1
+    resources:
+        mem_mb=4096
+    shell:
+        "python scripts/got_temporal_modern.py --input-dir data/raw --output-dir results/got_s02_s08 --duplicate-s2 'data/raw/got-s2-edges(1).csv'"
+
+rule terremotos:
+    input:
+        "data/raw/terremotos.csv"
+    output:
+        "results/terremotos/resumo_terremotos_temporal.json"
+    threads: 1
+    resources:
+        mem_mb=4096
+    shell:
+        "python scripts/earthquakes_temporal_modern.py --earthquakes {input} --output-dir results/terremotos --cell-size {config[earthquake_cell_size_degrees]}"
+
+rule college_msg:
+    output:
+        "results/college_msg/resumo_college_msg.json"
+    threads: 1
+    resources:
+        mem_mb=4096
+    shell:
+        "python scripts/college_msg_temporal.py --output-dir results/college_msg --window-days {config[window_days_college_msg]}"
